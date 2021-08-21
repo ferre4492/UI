@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="slider_test.css">
+    <link rel="stylesheet" type="text/css" href="slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick-theme.css" />
+
+</head>
+
+<body>
+    <div>
+        <img src="./ui_images/Uiサイト　シアターの画像.png" class="cinema">
+    </div>
+    
+    <p>aaaa</p>
+    
+       <div class="slider">
+            <div> <img src="./ui_images/milk.png" class="big_photo"></div>
+            <div> <img src="./ui_images/JTB.png" class="big_photo"></div>
+            <div> <img src="./ui_images/ハイド.png" class="big_photo"></div>
+            <!-- <div class="image">c</div>-->
+        </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="slick.min.js">
+        
+    </script>
+    <script>
+        $('.slider').slick({
+            autoplay: true,
+            arrows: true,
+            dots: true,
+        });
+    </script>
+</body>
+
+</html>
